@@ -210,7 +210,7 @@ def corrected_percent(raw_pct: float, temp_c: float, humi: float,
 # Streamlit UI
 # =======================
 st.set_page_config(page_title="Corrosion% + Temp/Humi Input", layout="wide")
-st.title("부식 퍼센티지 측정 + 온습도 입력 보정 (블루투스 없이)")
+st.title("부식 퍼센티지 측정 + 온습도 입력 보정")
 
 with st.sidebar:
     st.header("온습도 입력")
@@ -329,3 +329,4 @@ with col2:
         mime="image/jpeg",
         use_container_width=True
     )
+
